@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="cal.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Left: Input Section -->
+    <div class="calculator">
+      <h1>Age Calculator</h1>
+      <p>Enter your birth year, month, and day</p>
+
+      <div class="input-group">
+        <!-- Month Dropdown -->
+        <select id="month" required>
+          <option value="" disabled selected>Month</option>
+          <option value="1">January</option>
+          <option value="2">February</option>
+          <option value="3">March</option>
+          <option value="4">April</option>
+          <option value="5">May</option>
+          <option value="6">June</option>
+          <option value="7">July</option>
+          <option value="8">August</option>
+          <option value="9">September</option>
+          <option value="10">October</option>
+          <option value="11">November</option>
+          <option value="12">December</option>
+        </select>
+
+        <!-- Day Dropdown (populated dynamically via JS) -->
+        <select id="day" required>
+          <option value="" disabled selected>Day</option>
+          <!-- Days will be added dynamically -->
+        </select>
+
+        <!-- Year Input -->
+        <input
+          type="number"
+          id="year"
+          placeholder="Year"
+          min="1900"
+          max="2025"
+          required
+        />
+      </div>
+
+      <!-- Calculate Button -->
+      <button onclick="calculateAge()">Calculate Age</button>
+    </div>
+
+    <!-- Right: Result Display -->
+    <div id="result" class="result-block">
+      <!-- Age result will be shown here -->
+    </div>
+  </div>
+
+  <script src="cal.js"></script>
+</body>
+</html>
