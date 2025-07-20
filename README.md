@@ -22,9 +22,9 @@ A simple and responsive web-based **Age Calculator** built using HTML, CSS, and 
 - Form input validation
 
 ### 📌 Input Form
-![Input Form Screenshot](./images/input.png)
+![Input Form Screenshot](output.png)
 
 ### 📊 Age Display Output
-![Result Screenshot](./images/result.png)
+![Result Screenshot](result.png)
 
-# CodeAlpha_AgeCalculator
+
