@@ -1,7 +1,6 @@
-# Age Calculator – CodeAlpha Web Development Task
+# Age Calculator
 
-A simple and responsive web-based **Age Calculator** built using HTML, CSS, and JavaScript as part of the CodeAlpha Web Development Internship.
-
+A simple and responsive web-based **Age Calculator** built using HTML, CSS, and JavaScript.
 ## 🔍 Features
 
 - Users can input their **Date of Birth** (Day, Month, Year)
