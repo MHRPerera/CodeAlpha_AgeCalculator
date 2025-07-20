@@ -21,11 +21,10 @@ A simple and responsive web-based **Age Calculator** built using HTML, CSS, and 
 - DOM manipulation and event handling
 - Form input validation
 
-## 🚀 Live Demo
+### 📌 Input Form
+![Input Form Screenshot](./images/input.png)
 
-[👉 Click here to try it](https://mhrperera.github.io/CodeAlpha_AgeCalculator/)  
+### 📊 Age Display Output
+![Result Screenshot](./images/result.png)
 
----
-
-✅ Completed as part of [CodeAlpha Internship](https://codealpha.tech/)
 # CodeAlpha_AgeCalculator
